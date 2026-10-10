@@ -1,13 +1,27 @@
 @import "tailwindcss";
 
 @theme {
-  --color-brand: #0d9488;
-  --color-brand-dark: #0f766e;
-  --color-brand-light: #ccfbf1;
+  --color-rose: #e8b4b8;
+  --color-rose-deep: #c98d93;
+  --color-blush: #f8e5e3;
+  --color-cream: #fbf6ef;
+  --color-ivory: #fffdf9;
+  --color-latte: #b08968;
+  --color-cocoa: #6b4f3f;
   --font-sans: "Tajawal", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "El Messiri", "Tajawal", serif;
 }
 
 html { scroll-behavior: smooth; }
+body { background: var(--color-ivory); }
 
-.sparkle { animation: sparkle 2.4s ease-in-out infinite; }
-@keyframes sparkle { 0%,100% { opacity: .35; transform: scale(.85); } 50% { opacity: 1; transform: scale(1.1); } }
+/* soft crochet-stitch texture for placeholder images */
+.stitch {
+  background-image:
+    radial-gradient(circle at 25% 25%, rgb(255 255 255 / .55) 2px, transparent 2.5px),
+    radial-gradient(circle at 75% 75%, rgb(255 255 255 / .55) 2px, transparent 2.5px);
+  background-size: 16px 16px;
+}
+
+.drawer { transition: transform .3s ease; }
+.no-scrollbar::-webkit-scrollbar { display: none; }
