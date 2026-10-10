@@ -1,0 +1,206 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>نورا | NORA — منتجات كروشيه يدوية</title>
+    <meta name="description" content="نورا | NORA: حقائب كروشيه، حافظات لابتوب وآيباد، ماسكات جوال وإكسسوارات مصنوعة يدويا بحب. اطلبي بسهولة عبر واتساب." />
+    <meta name="theme-color" content="#f8e5e3" />
+    <link rel="icon" href="./favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=El+Messiri:wght@500;700&family=Tajawal:wght@400;500;700;800&display=swap" rel="stylesheet" />
+    <script type="module" crossorigin src="./assets/main-CDa0Tkye.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/main-SVz99fTs.css">
+  </head>
+  <body class="text-cocoa antialiased">
+    <!-- HEADER -->
+    <header class="sticky top-0 z-30 border-b border-rose/30 bg-ivory/85 backdrop-blur">
+      <div class="mx-auto flex max-w-6xl items-center justify-between px-4 py-3">
+        <a href="#" class="flex items-baseline gap-2">
+          <span class="font-display text-2xl font-bold tracking-[0.25em] text-rose-deep">NORA</span>
+          <span class="text-cocoa/30">|</span>
+          <span class="font-display text-xl font-bold text-cocoa">نورا</span>
+        </a>
+        <nav class="hidden gap-7 text-sm font-bold text-cocoa/70 md:flex">
+          <a href="#categories" class="hover:text-rose-deep">الأقسام</a>
+          <a href="#shop" class="hover:text-rose-deep">المتجر</a>
+          <a href="#story" class="hover:text-rose-deep">قصتنا</a>
+          <a href="#contact" class="hover:text-rose-deep">تواصلي معنا</a>
+        </nav>
+        <button type="button" data-open-cart class="relative flex h-11 w-11 items-center justify-center rounded-full bg-blush text-xl" aria-label="السلة">
+          🛍️
+          <span data-count class="absolute -top-1 -left-1 hidden h-5 min-w-5 rounded-full bg-rose-deep px-1 text-center text-xs font-bold leading-5 text-white">0</span>
+        </button>
+      </div>
+    </header>
+
+    <main class="pb-24 md:pb-0">
+      <!-- HERO -->
+      <section class="relative overflow-hidden bg-gradient-to-b from-blush via-cream to-ivory">
+        <div class="stitch absolute inset-0 opacity-40"></div>
+        <div class="relative mx-auto grid max-w-6xl items-center gap-10 px-4 py-16 md:grid-cols-2 md:py-24">
+          <div class="text-center md:text-start">
+            <p class="font-display text-sm tracking-[0.4em] text-rose-deep">HANDMADE CROCHET</p>
+            <h1 class="mt-4 font-display text-4xl font-bold leading-snug md:text-6xl">قطع صغيرة،<br />تصنع فرقًا كبيرًا 🧶</h1>
+            <p class="mx-auto mt-5 max-w-md text-lg leading-relaxed text-cocoa/70 md:mx-0">حقائب وحافظات وإكسسوارات كروشيه، كل قطعة تنحاك يدويا بحب وتفاصيل تشبهك.</p>
+            <a href="#shop" class="mt-8 inline-block rounded-full bg-rose-deep px-10 py-4 text-lg font-bold text-white shadow-lg shadow-rose/50 transition hover:bg-cocoa">تسوقي الآن</a>
+          </div>
+          <div class="relative mx-auto aspect-square w-full max-w-sm">
+            <div class="absolute inset-0 rounded-full bg-rose/40"></div>
+            <div class="stitch absolute inset-6 flex items-center justify-center rounded-full bg-gradient-to-br from-blush to-cream shadow-inner">
+              <div class="text-center">
+                <p class="text-8xl">👜</p>
+                <p class="mt-4 font-display text-3xl font-bold tracking-[0.3em] text-rose-deep">NORA</p>
+                <p class="text-sm text-cocoa/60">صنع يدوي 🤍</p>
+              </div>
+            </div>
+            <span class="absolute right-2 top-6 rounded-full bg-white px-4 py-2 text-sm font-bold shadow">🌸 قطع محدودة</span>
+            <span class="absolute bottom-8 left-0 rounded-full bg-white px-4 py-2 text-sm font-bold shadow">💗 اطلبي بدقيقة</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- CATEGORIES -->
+      <section id="categories" class="mx-auto max-w-6xl px-4 py-16">
+        <h2 class="text-center font-display text-3xl font-bold">الأقسام</h2>
+        <div id="cat-cards" class="mt-8 grid grid-cols-2 gap-4 md:grid-cols-4"></div>
+      </section>
+
+      <!-- FEATURED -->
+      <section class="bg-cream py-16">
+        <div class="mx-auto max-w-6xl px-4">
+          <h2 class="text-center font-display text-3xl font-bold">الأكثر تميزًا ✨</h2>
+          <p class="mt-2 text-center text-cocoa/60">قطع حبتها عميلاتنا</p>
+          <div id="featured-grid" class="mt-10 grid grid-cols-2 gap-4 md:grid-cols-4 md:gap-6"></div>
+        </div>
+      </section>
+
+      <!-- SHOP -->
+      <section id="shop" class="mx-auto max-w-6xl scroll-mt-20 px-4 py-16">
+        <h2 class="text-center font-display text-3xl font-bold">المتجر</h2>
+        <div id="cat-tabs" class="no-scrollbar mt-8 flex gap-2 overflow-x-auto pb-2 md:justify-center"></div>
+        <div id="shop-grid" class="mt-8 grid grid-cols-2 gap-4 md:grid-cols-3 md:gap-6 lg:grid-cols-4"></div>
+        <p class="mt-8 text-center text-xs text-cocoa/40">المنتجات والأسعار المعروضة نماذج للعرض، وتستبدل بمنتجات المتجر الحقيقية.</p>
+      </section>
+
+      <!-- HOW -->
+      <section class="bg-blush/60 py-14">
+        <div class="mx-auto grid max-w-4xl gap-6 px-4 text-center sm:grid-cols-3">
+          <div><p class="text-4xl">🛍️</p><p class="mt-2 font-bold">اختاري قطعتك</p><p class="text-sm text-cocoa/60">واللون والمقاس اللي يناسبك</p></div>
+          <div><p class="text-4xl">📝</p><p class="mt-2 font-bold">اكتبي بياناتك</p><p class="text-sm text-cocoa/60">بدون تسجيل أو حساب</p></div>
+          <div><p class="text-4xl">💬</p><p class="mt-2 font-bold">أرسلي الطلب واتساب</p><p class="text-sm text-cocoa/60">ونأكد لك الطلب والشحن</p></div>
+        </div>
+      </section>
+
+      <!-- STORY -->
+      <section id="story" class="mx-auto max-w-6xl px-4 py-20">
+        <div class="grid items-center gap-10 md:grid-cols-2">
+          <div class="stitch flex aspect-[4/3] items-center justify-center rounded-[2.5rem] bg-gradient-to-br from-cream to-rose/40">
+            <span class="text-8xl">🧶</span>
+          </div>
+          <div>
+            <p class="font-display text-sm tracking-[0.4em] text-rose-deep">OUR STORY</p>
+            <h2 class="mt-3 font-display text-3xl font-bold">قصة نورا</h2>
+            <p class="mt-5 text-lg leading-loose text-cocoa/75">بدأت نورا من حب الكروشيه وخيوط ملونة على طاولة البيت. كل قطعة تنحاك يدويا غرزة غرزة، عشان توصلك بلمسة دافئة ما تلقينها في المنتجات الجاهزة.</p>
+            <p class="mt-3 text-lg leading-loose text-cocoa/75">نختار خيوطنا بعناية، ونهتم بأدق التفاصيل، لأننا نؤمن إن القطع الصغيرة تصنع فرقا كبيرا 🤍</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- CONTACT -->
+      <section id="contact" class="bg-cream py-16">
+        <div class="mx-auto max-w-xl px-4 text-center">
+          <h2 class="font-display text-3xl font-bold">تواصلي معنا</h2>
+          <p class="mt-3 text-cocoa/70">عندك سؤال عن قطعة، أو تبين طلب خاص بلون معين؟ راسلينا.</p>
+          <a data-wa target="_blank" class="mt-6 inline-flex items-center gap-2 rounded-full bg-[#25D366] px-8 py-3.5 font-bold text-white shadow-lg transition hover:brightness-95">
+            <svg class="h-6 w-6" viewBox="0 0 24 24" fill="currentColor"><path d="M17.5 14.4c-.3-.1-1.8-.9-2-1-.3-.1-.5-.1-.7.1-.2.3-.8 1-.9 1.2-.2.2-.3.2-.6.1-.3-.1-1.3-.5-2.4-1.5-.9-.8-1.5-1.8-1.7-2.1-.2-.3 0-.5.1-.6l.4-.5c.1-.2.2-.3.3-.5.1-.2 0-.4 0-.5l-.9-2.2c-.2-.6-.5-.5-.7-.5h-.6c-.2 0-.5.1-.8.4-.3.3-1 1-1 2.5s1.1 2.9 1.2 3.1c.1.2 2.1 3.2 5.1 4.5.7.3 1.3.5 1.7.6.7.2 1.4.2 1.9.1.6-.1 1.8-.7 2-1.4.2-.7.2-1.3.2-1.4-.1-.1-.3-.2-.6-.3zM12 2a10 10 0 00-8.6 15.1L2 22l5-1.3A10 10 0 1012 2z"/></svg>
+            راسلينا على واتساب
+          </a>
+          <div class="mt-6 flex justify-center gap-3 text-sm font-bold">
+            <a data-ig target="_blank" class="rounded-full bg-white px-4 py-2">إنستقرام</a>
+            <a data-tt target="_blank" class="rounded-full bg-white px-4 py-2">تيك توك</a>
+            <a data-sc target="_blank" class="rounded-full bg-white px-4 py-2">سناب شات</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="border-t border-rose/30 py-8 text-center text-sm text-cocoa/50">
+      <p class="font-display text-lg font-bold tracking-[0.3em] text-rose-deep">NORA</p>
+      © <span data-year></span> نورا | NORA. صنع يدوي بحب 🤍
+    </footer>
+
+    <!-- desktop floating WhatsApp -->
+    <a data-wa target="_blank" aria-label="واتساب" class="fixed bottom-6 left-6 z-30 hidden h-14 w-14 items-center justify-center rounded-full bg-[#25D366] text-white shadow-xl transition hover:scale-105 md:flex">
+      <svg class="h-7 w-7" viewBox="0 0 24 24" fill="currentColor"><path d="M17.5 14.4c-.3-.1-1.8-.9-2-1-.3-.1-.5-.1-.7.1-.2.3-.8 1-.9 1.2-.2.2-.3.2-.6.1-.3-.1-1.3-.5-2.4-1.5-.9-.8-1.5-1.8-1.7-2.1-.2-.3 0-.5.1-.6l.4-.5c.1-.2.2-.3.3-.5.1-.2 0-.4 0-.5l-.9-2.2c-.2-.6-.5-.5-.7-.5h-.6c-.2 0-.5.1-.8.4-.3.3-1 1-1 2.5s1.1 2.9 1.2 3.1c.1.2 2.1 3.2 5.1 4.5.7.3 1.3.5 1.7.6.7.2 1.4.2 1.9.1.6-.1 1.8-.7 2-1.4.2-.7.2-1.3.2-1.4-.1-.1-.3-.2-.6-.3zM12 2a10 10 0 00-8.6 15.1L2 22l5-1.3A10 10 0 1012 2z"/></svg>
+    </a>
+
+    <!-- mobile bottom bar -->
+    <div class="fixed inset-x-0 bottom-0 z-30 flex gap-3 border-t border-rose/30 bg-ivory/95 p-3 backdrop-blur md:hidden">
+      <a data-wa target="_blank" class="flex flex-1 items-center justify-center gap-2 rounded-full bg-[#25D366] py-3 font-bold text-white">💬 واتساب</a>
+      <button type="button" data-open-cart class="relative flex flex-1 items-center justify-center gap-2 rounded-full bg-rose-deep py-3 font-bold text-white">
+        🛍️ السلة
+        <span data-count class="hidden rounded-full bg-white px-2 text-xs font-bold leading-5 text-rose-deep">0</span>
+      </button>
+    </div>
+
+    <!-- CART / CHECKOUT DRAWER -->
+    <div id="overlay" class="fixed inset-0 z-40 hidden bg-cocoa/30 backdrop-blur-sm"></div>
+    <aside id="drawer" class="drawer fixed inset-y-0 left-0 z-50 flex w-full max-w-md -translate-x-full flex-col bg-cream shadow-2xl">
+      <!-- cart -->
+      <div data-view="cart" class="flex h-full flex-col">
+        <div class="flex items-center justify-between border-b border-cocoa/10 p-5">
+          <h2 class="font-display text-2xl font-bold">سلة التسوق 🛍️</h2>
+          <button type="button" data-close class="text-2xl text-cocoa/50" aria-label="إغلاق">✕</button>
+        </div>
+        <div id="cart-items" class="flex-1 space-y-3 overflow-y-auto p-5"></div>
+        <div class="border-t border-cocoa/10 bg-ivory p-5">
+          <div class="flex justify-between text-lg font-extrabold"><span>إجمالي المنتجات</span><span id="cart-subtotal">0</span></div>
+          <p class="mt-1 text-xs text-cocoa/50">الشحن يحدد بعد تأكيد الطلب</p>
+          <button type="button" id="to-checkout" class="mt-4 w-full rounded-full bg-rose-deep py-4 text-lg font-bold text-white transition hover:bg-cocoa disabled:opacity-40">إتمام الطلب</button>
+        </div>
+      </div>
+
+      <!-- checkout -->
+      <div data-view="checkout" class="hidden h-full flex-col overflow-y-auto">
+        <div class="flex items-center justify-between border-b border-cocoa/10 p-5">
+          <button type="button" id="back-to-cart" class="text-sm font-bold text-cocoa/60">→ السلة</button>
+          <h2 class="font-display text-2xl font-bold">إتمام الطلب</h2>
+          <button type="button" data-close class="text-2xl text-cocoa/50" aria-label="إغلاق">✕</button>
+        </div>
+        <form id="checkout-form" class="space-y-4 p-5" novalidate>
+          <label class="block"><span class="mb-1 block text-sm font-bold">الاسم</span>
+            <input name="name" autocomplete="name" class="w-full rounded-2xl border border-cocoa/15 bg-white px-4 py-3 outline-none focus:border-rose-deep" placeholder="اسمك" /></label>
+          <label class="block"><span class="mb-1 block text-sm font-bold">رقم الجوال</span>
+            <input name="phone" type="tel" dir="ltr" autocomplete="tel" class="w-full rounded-2xl border border-cocoa/15 bg-white px-4 py-3 text-right outline-none focus:border-rose-deep" placeholder="05xxxxxxxx" /></label>
+          <label class="block"><span class="mb-1 block text-sm font-bold">العنوان</span>
+            <input name="address" autocomplete="street-address" class="w-full rounded-2xl border border-cocoa/15 bg-white px-4 py-3 outline-none focus:border-rose-deep" placeholder="المدينة، الحي" /></label>
+          <label class="block"><span class="mb-1 block text-sm font-bold">ملاحظات (اختياري)</span>
+            <textarea name="notes" rows="2" class="w-full rounded-2xl border border-cocoa/15 bg-white px-4 py-3 outline-none focus:border-rose-deep" placeholder="أي تفاصيل تحبين نعرفها"></textarea></label>
+
+          <div class="rounded-2xl bg-white p-4">
+            <p class="mb-1 font-bold">ملخص الطلب</p>
+            <div id="summary" class="divide-y divide-cocoa/5"></div>
+          </div>
+
+          <p id="form-error" class="hidden rounded-2xl bg-rose/30 px-4 py-3 text-sm font-bold text-cocoa"></p>
+          <button type="submit" class="w-full rounded-full bg-[#25D366] py-4 text-lg font-bold text-white shadow-lg transition hover:brightness-95">إرسال الطلب عبر واتساب 💗</button>
+          <p class="text-center text-xs text-cocoa/50">بيفتح لك واتساب برسالة جاهزة فيها كل تفاصيل طلبك</p>
+        </form>
+      </div>
+
+      <!-- after opening WhatsApp -->
+      <div data-view="sent" class="hidden h-full flex-col items-center justify-center p-8 text-center">
+        <p class="text-6xl">💬</p>
+        <h2 class="mt-4 font-display text-2xl font-bold">خطوة أخيرة!</h2>
+        <p class="mt-3 leading-relaxed text-cocoa/70">فتحنا لك واتساب برسالة طلبك. اضغطي <b>إرسال</b> في واتساب عشان يوصلنا طلبك.</p>
+        <button type="button" id="resend" class="mt-6 w-full rounded-full border-2 border-[#25D366] py-3 font-bold text-[#1a9e4b]">ما انفتح واتساب؟ حاولي مرة ثانية</button>
+        <button type="button" id="clear-cart" class="mt-3 w-full rounded-full bg-rose-deep py-3 font-bold text-white">أرسلت الطلب ✓</button>
+      </div>
+    </aside>
+
+    <div id="toast" class="pointer-events-none fixed inset-x-0 bottom-24 z-[60] mx-auto w-fit max-w-[90%] translate-y-4 rounded-full bg-cocoa px-5 py-3 text-sm font-bold text-white opacity-0 shadow-xl transition md:bottom-8"></div>
+
+  </body>
+</html>
